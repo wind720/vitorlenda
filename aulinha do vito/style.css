@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffebeb;
+}
+nav{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parteDaLogo{
+    display: flex;
+    align-items: center;
+}
+.parteDaLogo img{
+    width: 60px;
+    margin-right: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+a{
+    color: #111;
+    text-decoration: none;
+    font-size: 25px;
+}
+h1{
+    font-size: 30px;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.parteDoTexto{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.parteDaImagem{
+    width: 50%;
+}
+.parteDaImagem img{
+    width: 100%;
+}
+.botoes{
+    margin: 20px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ed6cad;
+    cursor: pointer;
+}
+.simounao{
+    font-size: 30px;
+}
